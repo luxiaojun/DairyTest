@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
+#import "MAMapKit.h"
 
-@interface LocationVierControllerViewController : UIViewController
+@interface LocationVierControllerViewController : UIViewController<MAMapViewDelegate>
 
 
 @end

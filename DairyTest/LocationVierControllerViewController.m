@@ -33,4 +33,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+-(NSString*)keyForMap
+{
+    return @"53c1b4e5513db46e8527676068be8954";
+}
 @end

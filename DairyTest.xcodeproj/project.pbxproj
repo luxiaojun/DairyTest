@@ -12,7 +12,6 @@
 		2299C6E0179EDFD2004798E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2299C6DF179EDFD2004798E6 /* CoreGraphics.framework */; };
 		2299C6E6179EDFD2004798E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2299C6E4179EDFD2004798E6 /* InfoPlist.strings */; };
 		2299C6E8179EDFD2004798E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2299C6E7179EDFD2004798E6 /* main.m */; };
-		2299C6EC179EDFD2004798E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2299C6EB179EDFD2004798E6 /* AppDelegate.m */; };
 		2299C6EE179EDFD2004798E6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2299C6ED179EDFD2004798E6 /* Default.png */; };
 		2299C6F0179EDFD2004798E6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2299C6EF179EDFD2004798E6 /* Default@2x.png */; };
 		2299C6F2179EDFD2004798E6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2299C6F1179EDFD2004798E6 /* Default-568h@2x.png */; };
@@ -31,6 +30,15 @@
 		229D035D17A25E0600F37B97 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229D035C17A25E0600F37B97 /* SystemConfiguration.framework */; };
 		229D035F17A25E1200F37B97 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 229D035E17A25E1200F37B97 /* libz.dylib */; };
 		229D036117A25E1B00F37B97 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 229D036017A25E1B00F37B97 /* libxml2.2.dylib */; };
+		22F7719717C4F56B002798D3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F7719617C4F56B002798D3 /* CoreTelephony.framework */; };
+		22F771B717C4F648002798D3 /* libMAMapKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F771B217C4F648002798D3 /* libMAMapKit.a */; };
+		22F771B817C4F648002798D3 /* libMAMapKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F771B217C4F648002798D3 /* libMAMapKit.a */; };
+		22F771B917C4F648002798D3 /* libMAMapKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F771B417C4F648002798D3 /* libMAMapKit.a */; };
+		22F771BA17C4F648002798D3 /* libMAMapKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F771B417C4F648002798D3 /* libMAMapKit.a */; };
+		22F771BB17C4F648002798D3 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22F771B617C4F648002798D3 /* AMap.bundle */; };
+		22F771BC17C4F648002798D3 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22F771B617C4F648002798D3 /* AMap.bundle */; };
+		22F771BE17C4F8A7002798D3 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22F771BD17C4F8A7002798D3 /* AppDelegate.mm */; };
+		22F771BF17C4F8A7002798D3 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22F771BD17C4F8A7002798D3 /* AppDelegate.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +61,6 @@
 		2299C6E7179EDFD2004798E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2299C6E9179EDFD2004798E6 /* DairyTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DairyTest-Prefix.pch"; sourceTree = "<group>"; };
 		2299C6EA179EDFD2004798E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2299C6EB179EDFD2004798E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2299C6ED179EDFD2004798E6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2299C6EF179EDFD2004798E6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2299C6F1179EDFD2004798E6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -75,6 +82,31 @@
 		229D035C17A25E0600F37B97 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		229D035E17A25E1200F37B97 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		229D036017A25E1B00F37B97 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		22F7719617C4F56B002798D3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		22F7719D17C4F648002798D3 /* MAAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAnnotation.h; sourceTree = "<group>"; };
+		22F7719E17C4F648002798D3 /* MAAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAnnotationView.h; sourceTree = "<group>"; };
+		22F7719F17C4F648002798D3 /* MACircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACircle.h; sourceTree = "<group>"; };
+		22F771A017C4F648002798D3 /* MACircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACircleView.h; sourceTree = "<group>"; };
+		22F771A117C4F648002798D3 /* MAGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGeometry.h; sourceTree = "<group>"; };
+		22F771A217C4F648002798D3 /* MAMapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMapKit.h; sourceTree = "<group>"; };
+		22F771A317C4F648002798D3 /* MAMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMapView.h; sourceTree = "<group>"; };
+		22F771A417C4F648002798D3 /* MAMultiPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMultiPoint.h; sourceTree = "<group>"; };
+		22F771A517C4F648002798D3 /* MAOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAOverlay.h; sourceTree = "<group>"; };
+		22F771A617C4F648002798D3 /* MAOverlayPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAOverlayPathView.h; sourceTree = "<group>"; };
+		22F771A717C4F648002798D3 /* MAOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAOverlayView.h; sourceTree = "<group>"; };
+		22F771A817C4F648002798D3 /* MAPinAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPinAnnotationView.h; sourceTree = "<group>"; };
+		22F771A917C4F648002798D3 /* MAPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPointAnnotation.h; sourceTree = "<group>"; };
+		22F771AA17C4F648002798D3 /* MAPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPolygon.h; sourceTree = "<group>"; };
+		22F771AB17C4F648002798D3 /* MAPolygonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPolygonView.h; sourceTree = "<group>"; };
+		22F771AC17C4F648002798D3 /* MAPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPolyline.h; sourceTree = "<group>"; };
+		22F771AD17C4F648002798D3 /* MAPolylineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPolylineView.h; sourceTree = "<group>"; };
+		22F771AE17C4F648002798D3 /* MAShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAShape.h; sourceTree = "<group>"; };
+		22F771AF17C4F648002798D3 /* MATypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MATypes.h; sourceTree = "<group>"; };
+		22F771B017C4F648002798D3 /* MAUserLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAUserLocation.h; sourceTree = "<group>"; };
+		22F771B217C4F648002798D3 /* libMAMapKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMAMapKit.a; sourceTree = "<group>"; };
+		22F771B417C4F648002798D3 /* libMAMapKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMAMapKit.a; sourceTree = "<group>"; };
+		22F771B617C4F648002798D3 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
+		22F771BD17C4F8A7002798D3 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F7719717C4F56B002798D3 /* CoreTelephony.framework in Frameworks */,
 				229D036117A25E1B00F37B97 /* libxml2.2.dylib in Frameworks */,
 				229D035F17A25E1200F37B97 /* libz.dylib in Frameworks */,
 				229D035D17A25E0600F37B97 /* SystemConfiguration.framework in Frameworks */,
@@ -91,6 +124,8 @@
 				2299C6DC179EDFD2004798E6 /* UIKit.framework in Frameworks */,
 				2299C6DE179EDFD2004798E6 /* Foundation.framework in Frameworks */,
 				2299C6E0179EDFD2004798E6 /* CoreGraphics.framework in Frameworks */,
+				22F771B717C4F648002798D3 /* libMAMapKit.a in Frameworks */,
+				22F771B917C4F648002798D3 /* libMAMapKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +136,8 @@
 				2299C700179EDFD3004798E6 /* SenTestingKit.framework in Frameworks */,
 				2299C701179EDFD3004798E6 /* UIKit.framework in Frameworks */,
 				2299C702179EDFD3004798E6 /* Foundation.framework in Frameworks */,
+				22F771B817C4F648002798D3 /* libMAMapKit.a in Frameworks */,
+				22F771BA17C4F648002798D3 /* libMAMapKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +166,7 @@
 		2299C6DA179EDFD2004798E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				22F7719617C4F56B002798D3 /* CoreTelephony.framework */,
 				229D036017A25E1B00F37B97 /* libxml2.2.dylib */,
 				229D035E17A25E1200F37B97 /* libz.dylib */,
 				229D035C17A25E0600F37B97 /* SystemConfiguration.framework */,
@@ -146,9 +184,10 @@
 		2299C6E1179EDFD2004798E6 /* DairyTest */ = {
 			isa = PBXGroup;
 			children = (
+				22F7719B17C4F648002798D3 /* AMap */,
 				229D033D17A25D6500F37B97 /* Resource */,
 				2299C6EA179EDFD2004798E6 /* AppDelegate.h */,
-				2299C6EB179EDFD2004798E6 /* AppDelegate.m */,
+				22F771BD17C4F8A7002798D3 /* AppDelegate.mm */,
 				2299C6F3179EDFD2004798E6 /* MainStoryboard.storyboard */,
 				2299C6F6179EDFD2004798E6 /* AboutViewController.h */,
 				2299C6F7179EDFD2004798E6 /* AboutViewController.m */,
@@ -198,6 +237,68 @@
 				229D033E17A25D6500F37B97 /* AMap.bundle */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		22F7719B17C4F648002798D3 /* AMap */ = {
+			isa = PBXGroup;
+			children = (
+				22F7719C17C4F648002798D3 /* Headers */,
+				22F771B117C4F648002798D3 /* Release-iphoneos */,
+				22F771B317C4F648002798D3 /* Release-iphonesimulator */,
+				22F771B517C4F648002798D3 /* Resources */,
+			);
+			path = AMap;
+			sourceTree = "<group>";
+		};
+		22F7719C17C4F648002798D3 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				22F7719D17C4F648002798D3 /* MAAnnotation.h */,
+				22F7719E17C4F648002798D3 /* MAAnnotationView.h */,
+				22F7719F17C4F648002798D3 /* MACircle.h */,
+				22F771A017C4F648002798D3 /* MACircleView.h */,
+				22F771A117C4F648002798D3 /* MAGeometry.h */,
+				22F771A217C4F648002798D3 /* MAMapKit.h */,
+				22F771A317C4F648002798D3 /* MAMapView.h */,
+				22F771A417C4F648002798D3 /* MAMultiPoint.h */,
+				22F771A517C4F648002798D3 /* MAOverlay.h */,
+				22F771A617C4F648002798D3 /* MAOverlayPathView.h */,
+				22F771A717C4F648002798D3 /* MAOverlayView.h */,
+				22F771A817C4F648002798D3 /* MAPinAnnotationView.h */,
+				22F771A917C4F648002798D3 /* MAPointAnnotation.h */,
+				22F771AA17C4F648002798D3 /* MAPolygon.h */,
+				22F771AB17C4F648002798D3 /* MAPolygonView.h */,
+				22F771AC17C4F648002798D3 /* MAPolyline.h */,
+				22F771AD17C4F648002798D3 /* MAPolylineView.h */,
+				22F771AE17C4F648002798D3 /* MAShape.h */,
+				22F771AF17C4F648002798D3 /* MATypes.h */,
+				22F771B017C4F648002798D3 /* MAUserLocation.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		22F771B117C4F648002798D3 /* Release-iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+				22F771B217C4F648002798D3 /* libMAMapKit.a */,
+			);
+			path = "Release-iphoneos";
+			sourceTree = "<group>";
+		};
+		22F771B317C4F648002798D3 /* Release-iphonesimulator */ = {
+			isa = PBXGroup;
+			children = (
+				22F771B417C4F648002798D3 /* libMAMapKit.a */,
+			);
+			path = "Release-iphonesimulator";
+			sourceTree = "<group>";
+		};
+		22F771B517C4F648002798D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22F771B617C4F648002798D3 /* AMap.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +378,7 @@
 				2299C6F2179EDFD2004798E6 /* Default-568h@2x.png in Resources */,
 				2299C6F5179EDFD2004798E6 /* MainStoryboard.storyboard in Resources */,
 				229D033F17A25D6500F37B97 /* AMap.bundle in Resources */,
+				22F771BB17C4F648002798D3 /* AMap.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2299C70A179EDFD3004798E6 /* InfoPlist.strings in Resources */,
+				22F771BC17C4F648002798D3 /* AMap.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,9 +415,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2299C6E8179EDFD2004798E6 /* main.m in Sources */,
-				2299C6EC179EDFD2004798E6 /* AppDelegate.m in Sources */,
 				2299C6F8179EDFD2004798E6 /* AboutViewController.m in Sources */,
 				229D033A17A242A900F37B97 /* LocationVierControllerViewController.m in Sources */,
+				22F771BE17C4F8A7002798D3 /* AppDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +426,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2299C70D179EDFD3004798E6 /* DairyTestTests.m in Sources */,
+				22F771BF17C4F8A7002798D3 /* AppDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +579,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DairyTest/DairyTest-Prefix.pch";
 				INFOPLIST_FILE = "DairyTestTests/DairyTestTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/DairyTest/AMap/Release-iphoneos\"",
+					"\"$(SRCROOT)/DairyTest/AMap/Release-iphonesimulator\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -492,6 +601,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DairyTest/DairyTest-Prefix.pch";
 				INFOPLIST_FILE = "DairyTestTests/DairyTestTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/DairyTest/AMap/Release-iphoneos\"",
+					"\"$(SRCROOT)/DairyTest/AMap/Release-iphonesimulator\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
