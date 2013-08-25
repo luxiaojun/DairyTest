@@ -14,6 +14,8 @@
 
 @implementation LocationVierControllerViewController
 
+@synthesize mapView;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -26,6 +28,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    CGRect rect = [UIScreen mainScreen].applicationFrame;
+    
+    mapView = [[MAMapView alloc] initWithFrame: rect];
+    mapView.delegate = self;
+    mapView.mapType = MAMapTypeStandard;
+    
+    [self.view addSubview: mapView];
 }
 
 - (void)didReceiveMemoryWarning

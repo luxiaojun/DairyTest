@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <CoreLocation/CoreLocation.h>
 #import "MAMapKit.h"
 
 @interface LocationVierControllerViewController : UIViewController<MAMapViewDelegate>
 
+@property(nonatomic, strong)MAMapView *mapView;
 
 @end
