@@ -45,14 +45,14 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="3rg-HS-Oah" kind="relationship" relationship="viewControllers" id="kgK-MP-8lU"/>
                         <segue destination="6Nd-6G-LHO" kind="relationship" relationship="viewControllers" id="f1i-d1-6xR"/>
                         <segue destination="2" kind="relationship" relationship="viewControllers" id="fTV-9E-Lpx"/>
+                        <segue destination="3rg-HS-Oah" kind="relationship" relationship="viewControllers" id="TH0-2X-ZMv"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aJp-EI-dTL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1138" y="-438"/>
+            <point key="canvasLocation" x="-1142" y="-426"/>
         </scene>
         <!--About View Controller - 关于作者-->
         <scene sceneID="5">

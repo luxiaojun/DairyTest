@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		228C772417CB94B500923AA8 /* MyDairyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 228C772217CB94B500923AA8 /* MyDairyViewController.m */; };
+		228C772517CB94B500923AA8 /* MyDairyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 228C772317CB94B500923AA8 /* MyDairyViewController.xib */; };
 		2299C6DC179EDFD2004798E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2299C6DB179EDFD2004798E6 /* UIKit.framework */; };
 		2299C6DE179EDFD2004798E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2299C6DD179EDFD2004798E6 /* Foundation.framework */; };
 		2299C6E0179EDFD2004798E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2299C6DF179EDFD2004798E6 /* CoreGraphics.framework */; };
@@ -48,6 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		228C772117CB94B500923AA8 /* MyDairyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDairyViewController.h; sourceTree = "<group>"; };
+		228C772217CB94B500923AA8 /* MyDairyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDairyViewController.m; sourceTree = "<group>"; };
+		228C772317CB94B500923AA8 /* MyDairyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyDairyViewController.xib; sourceTree = "<group>"; };
 		2299C6D8179EDFD2004798E6 /* DairyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DairyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2299C6DB179EDFD2004798E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2299C6DD179EDFD2004798E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -188,6 +193,9 @@
 				2299C6F7179EDFD2004798E6 /* AboutViewController.m */,
 				229D033817A242A900F37B97 /* LocationVierControllerViewController.h */,
 				229D033917A242A900F37B97 /* LocationVierControllerViewController.m */,
+				228C772117CB94B500923AA8 /* MyDairyViewController.h */,
+				228C772217CB94B500923AA8 /* MyDairyViewController.m */,
+				228C772317CB94B500923AA8 /* MyDairyViewController.xib */,
 				2299C6E2179EDFD2004798E6 /* Supporting Files */,
 			);
 			path = DairyTest;
@@ -346,6 +354,7 @@
 				2299C6F2179EDFD2004798E6 /* Default-568h@2x.png in Resources */,
 				2299C6F5179EDFD2004798E6 /* MainStoryboard.storyboard in Resources */,
 				22FA3BB317CA58DE006D603A /* AMap.bundle in Resources */,
+				228C772517CB94B500923AA8 /* MyDairyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +393,7 @@
 				2299C6F8179EDFD2004798E6 /* AboutViewController.m in Sources */,
 				229D033A17A242A900F37B97 /* LocationVierControllerViewController.m in Sources */,
 				22F771BE17C4F8A7002798D3 /* AppDelegate.mm in Sources */,
+				228C772417CB94B500923AA8 /* MyDairyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
