@@ -65,5 +65,26 @@
     return self.diaries.count;
 }
 
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *cellIdentifier = @"DiaryCell";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier: cellIdentifier];
+    
+    Diary *diary = [self.diaries objectAtIndex: indexPath.row];
+    
+    cell.textLabel.text = diary.title;
+    cell.detailTextLabel.text = [[diary dateCreated] description];
+    
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSString *messageString = [NSString stringWithFormat:@"用户点击了%d行", indexPath.row];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Message" message: messageString delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+    
+    [alert show];
+}
 
 @end
