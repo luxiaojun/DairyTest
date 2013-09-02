@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Diary.h"
 
-@interface MyDairyViewController : UIViewController
+@interface MyDiaryViewController : UITableViewController <UITableViewDataSource>
+
+@property(nonatomic, strong)NSArray *diaries;
 
 @end

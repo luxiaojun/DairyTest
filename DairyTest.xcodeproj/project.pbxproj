@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		228C772417CB94B500923AA8 /* MyDairyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 228C772217CB94B500923AA8 /* MyDairyViewController.m */; };
-		228C772517CB94B500923AA8 /* MyDairyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 228C772317CB94B500923AA8 /* MyDairyViewController.xib */; };
+		228C772417CB94B500923AA8 /* MyDiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 228C772217CB94B500923AA8 /* MyDiaryViewController.m */; };
+		228C772517CB94B500923AA8 /* MyDiaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 228C772317CB94B500923AA8 /* MyDiaryViewController.xib */; };
 		2299C6DC179EDFD2004798E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2299C6DB179EDFD2004798E6 /* UIKit.framework */; };
 		2299C6DE179EDFD2004798E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2299C6DD179EDFD2004798E6 /* Foundation.framework */; };
 		2299C6E0179EDFD2004798E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2299C6DF179EDFD2004798E6 /* CoreGraphics.framework */; };
@@ -31,6 +31,7 @@
 		229D035D17A25E0600F37B97 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229D035C17A25E0600F37B97 /* SystemConfiguration.framework */; };
 		229D035F17A25E1200F37B97 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 229D035E17A25E1200F37B97 /* libz.dylib */; };
 		229D036117A25E1B00F37B97 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 229D036017A25E1B00F37B97 /* libxml2.2.dylib */; };
+		22E23CFB17D23CB600028B48 /* Diary.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E23CFA17D23CB600028B48 /* Diary.m */; };
 		22F7719717C4F56B002798D3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F7719617C4F56B002798D3 /* CoreTelephony.framework */; };
 		22F771BE17C4F8A7002798D3 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22F771BD17C4F8A7002798D3 /* AppDelegate.mm */; };
 		22F771BF17C4F8A7002798D3 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22F771BD17C4F8A7002798D3 /* AppDelegate.mm */; };
@@ -50,9 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		228C772117CB94B500923AA8 /* MyDairyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDairyViewController.h; sourceTree = "<group>"; };
-		228C772217CB94B500923AA8 /* MyDairyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDairyViewController.m; sourceTree = "<group>"; };
-		228C772317CB94B500923AA8 /* MyDairyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyDairyViewController.xib; sourceTree = "<group>"; };
+		228C772117CB94B500923AA8 /* MyDiaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDiaryViewController.h; sourceTree = "<group>"; };
+		228C772217CB94B500923AA8 /* MyDiaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDiaryViewController.m; sourceTree = "<group>"; };
+		228C772317CB94B500923AA8 /* MyDiaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyDiaryViewController.xib; sourceTree = "<group>"; };
 		2299C6D8179EDFD2004798E6 /* DairyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DairyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2299C6DB179EDFD2004798E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2299C6DD179EDFD2004798E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -102,6 +103,8 @@
 		229D035C17A25E0600F37B97 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		229D035E17A25E1200F37B97 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		229D036017A25E1B00F37B97 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		22E23CF917D23CB600028B48 /* Diary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Diary.h; sourceTree = "<group>"; };
+		22E23CFA17D23CB600028B48 /* Diary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Diary.m; sourceTree = "<group>"; };
 		22F7719617C4F56B002798D3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		22F771BD17C4F8A7002798D3 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		22FA3BAE17CA58B2006D603A /* libMAMapKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMAMapKit.a; path = "DairyTest/AMap/Release-iphoneos/libMAMapKit.a"; sourceTree = "<group>"; };
@@ -193,9 +196,11 @@
 				2299C6F7179EDFD2004798E6 /* AboutViewController.m */,
 				229D033817A242A900F37B97 /* LocationVierControllerViewController.h */,
 				229D033917A242A900F37B97 /* LocationVierControllerViewController.m */,
-				228C772117CB94B500923AA8 /* MyDairyViewController.h */,
-				228C772217CB94B500923AA8 /* MyDairyViewController.m */,
-				228C772317CB94B500923AA8 /* MyDairyViewController.xib */,
+				228C772117CB94B500923AA8 /* MyDiaryViewController.h */,
+				228C772217CB94B500923AA8 /* MyDiaryViewController.m */,
+				228C772317CB94B500923AA8 /* MyDiaryViewController.xib */,
+				22E23CF917D23CB600028B48 /* Diary.h */,
+				22E23CFA17D23CB600028B48 /* Diary.m */,
 				2299C6E2179EDFD2004798E6 /* Supporting Files */,
 			);
 			path = DairyTest;
@@ -354,7 +359,7 @@
 				2299C6F2179EDFD2004798E6 /* Default-568h@2x.png in Resources */,
 				2299C6F5179EDFD2004798E6 /* MainStoryboard.storyboard in Resources */,
 				22FA3BB317CA58DE006D603A /* AMap.bundle in Resources */,
-				228C772517CB94B500923AA8 /* MyDairyViewController.xib in Resources */,
+				228C772517CB94B500923AA8 /* MyDiaryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,7 +398,8 @@
 				2299C6F8179EDFD2004798E6 /* AboutViewController.m in Sources */,
 				229D033A17A242A900F37B97 /* LocationVierControllerViewController.m in Sources */,
 				22F771BE17C4F8A7002798D3 /* AppDelegate.mm in Sources */,
-				228C772417CB94B500923AA8 /* MyDairyViewController.m in Sources */,
+				228C772417CB94B500923AA8 /* MyDiaryViewController.m in Sources */,
+				22E23CFB17D23CB600028B48 /* Diary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
